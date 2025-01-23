@@ -1,46 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <title>Mahesh Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style1.css" />
+<meta charset="UTF-8" />
+<title>Portfolio</title>
+<link rel="stylesheet" href="style1.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
-
 <body>
-   <nav>
-    <div class="protfolio">
-        <h2 class="logo">Portfolio</h2></div>
+<!-- Move to up button -->
+<div class="scroll-button">
+<a href="#home"><i class="fas fa-arrow-up"></i></a>
+</div>
+<!-- navgaition menu -->
+<nav>
+<div class="navbar">
+<div class="logo"><a href="#" ><h3>Portfolio</h3></a></div>
+<ul class="menu">
+<li><a href="#home" style="--i:1">Home</a></li>
+<li><a href="#about" style="--i:2">About</a></li>
+<li><a href="#skills" style="--i:3">Skills</a></li>
+<li><a href="#projects" style="--i:4">Projects</a></li>
+<li><a href="#services" style="--i:4">Services</a></li>
+<li><a href="#contact" style="--i:5">Contact</a></li>
+<div class="cancel-btn">
+<i class="fas fa-times"></i>
+</div>
+</ul>
+<div class="button">
+<a href="#contact"><button>Hire Me!</button></a>
+</div>
+</div>
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+</nav>
 
-    <div class="details">
+<!-- Home Section Start -->
+<section class="home" id="home">
+<div class="backimg">
+<img src="https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+</div>
+<div class="home-content"> 
+<div class="text">
+<div class="text-one" style="color: #f06666;">Hello,</div>
+<div class="text-two" style="color:#f5f6f8;">I'm Mahesh Pulagam</div>
+<div class="text-three">Front-end Developer</div>
 
-        <ul>
-            <li><a herf="" >Home</a></li>
-            <li><a herf="" >About</a></li>
-            <li><a herf="" >Skills</a></li>
-            <li><a herf="" >Projects</a></li>
-            <li><a herf="" >Home</a></li>
-            <li><a herf="" >Contact</a></li>
-        </ul>
-    </div>
-    <div class="button1">
-        <button>Hire Me</button>
-    </div>
-    
-    </div>
-    </nav> 
-    <section class="home1">
-        <div class="home">
-            <h4>Hello,</h4>
-            <h1>I'm Mahesh</h1>
-            <h2>Front end developer</h2>
-            <div>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-linkedin"></i></a>
+</div>
+<div class="media-icons">
+<div class="icon1"><a href="https://www.instagram.com/invites/contact/?igsh=2j95wq91kuw4&utm_content=qt0ef6i"><i class="fab fa-instagram"></i></a></div>
+<div class="icon2"><a href="https://www.linkedin.com/in/pulagam-mahesh-a67b172b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin-square"></i></a></div>
+<div class="icon3"><a href="https://telegram.org/dl"><i class="fa-brands fa-telegram"></i></a></div>
+</div>
+<div class="ab">
+<a href="https://1drv.ms/b/c/54d341417c4cf42d/EZsVkyamTi9HqL_Y8ANxDgIBWnoI6Opmn_x6MyVsQKy_IQ" download ><button>Download Resume</button></a>
+</div>
+</div>
+</section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+<div class="content">
+<div class="title"><span>About Me</span></div>
+<div class="about-details">
+<div class="left">
+<img src="image1.jpg" alt="a photo of me" />
+</div>
+<div class="right">
+<div class="topic">My Professional Profile:</div>
+<p>
+I'm Mahesh Pulagam, currently pursuing my studies
+in Bachelor's degree at Kl University. I am passionate 
+about web development and consider myself an enthusiast in this field. My journey with Python 
+has allowed me to explore its capabilities, and I am proficient at an intermediate level.I am
+currently honing my skills in Web Development, focusing on its applications in various domains.
+</p>
+<div class="button">
+<a href="#skills"><button>Next</button></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- My Skill Section Start -->
+<section class="skills" id="skills">
+<div class="content">
+<div class="title"><span>My Skills</span></div>
+<div class="skills-details">
+<div class="text">
+<div class="topic">Skills Reflects Our Knowledge</div>
+<p> As a dedicated front-end developer, my proficiency in HTML, CSS, 
+and JavaScript not only underpins my technical expertise but also 
+reflects my deepunderstanding of creating engaging and functional web experiences.</p>
+
+</div>
+<div class="boxes">
+<div class="box">
+<div class="topic">HTML</div>
+<div class="per">90%</div>
+</div>
+<div class="box">
+<div class="topic">CSS</div>
+<div class="per">90%</div>
+</div>
+<div class="box">
+<div class="topic">JavScript</div>
+<div class="per">70%</div>
+</div>
+<div class="box">
+<div class="topic">Bootstrap</div>
+<div class="per">90%</div>
+</div>
+<div class="box">
+<div class="topic">React Js</div>
+<div class="per">70%</div>
+            </div> 
             </div>
-            <div>
-                <a href=""><button class="button2">Download Resume<i class="bi bi-download"></i></button></a>
-            </div>
-    </section>
-</body>
-</html>
+<div class="box">
+<div class="topic">Python</div>
+<div class="per">70%</div>
